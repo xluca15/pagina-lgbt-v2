@@ -1,0 +1,22 @@
+extends header.pug 
+block content 
+    body
+        include ./navbar.pug
+        section.article
+            h1 Día internacion contra la homofobia, la Transfobia y la Bifobia
+            //- Create countdown with months, days, hours, minutes and seconds
+            section.countdown
+                section.countdown__item
+                    p#days
+                    p#days-text Días
+                section.countdown__item
+                    p#hours
+                    p#hours-text Horas
+                section.countdown__item
+                    p#minutes
+                    p#minutes-text Minutos
+                section.countdown__item
+                    p#seconds
+                    p#seconds-text Segundos
+                    span.transition
+        script(src="js/countdown.js") 

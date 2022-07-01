@@ -5,13 +5,7 @@ export const urls = [
     "transgenero",
     "intersexo",
     "queer",
-    "orientaacion",
-    "generos",
-    "homosexual",
-    "heterosexual",
-    "identidad",
-    "homofobia",
-    
+    "index",
 ]
 
 export const articles = {
@@ -21,7 +15,7 @@ export const articles = {
             url: "orientacion",
         },
         {
-            name: "Géneros",
+            name: "Generos",
             url: "generos",
         },
         {
@@ -29,15 +23,15 @@ export const articles = {
             url: "homosexual",
         },
         {
-            name: "Género > Transgénero",
+            name: "Genero > Transgenero",
             url: "transgenero"
         },
         {
-            name: "Género > Lesbiana",
+            name: "Genero > Lesbiana",
             url: "lesbiana",
         },
         {
-            name: "Género > Intersexo",
+            name: "Genero > Intersexo",
             url: "intersexo",
         },
         {
@@ -45,7 +39,7 @@ export const articles = {
             url: "heterosexual",
         },
         {
-            name: "Orientación > bisexual",
+            name: "Orientación > Bisexual",
             url: "bisexual",
         },
         {
