@@ -239,6 +239,13 @@ label {
     flex-direction: row;
     align-items: center;
 }
+.countdown-title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #eee;
+    margin-top: 40px;
+}
 .countdown > .countdown__item{
     border-radius: 5px;
     background-color: #fafafa30;
@@ -265,6 +272,63 @@ label {
     position: relative;
     top: 0px;
 }
+.identidad{
+    width: 60%;
+    height: 60%;
+}
+.queer{
+    width: 75%;
+    height: 75%;
+}
+.credits {
+    background: url("../images/bg.jpg") no-repeat top left fixed;
+    background-size: cover;
+    height: calc(100vh - 56px - 40px);
+    width: calc(100vw);
+    padding: 20px;
+}
+.credits__text{
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 50vw;
+    color: #eee;
+}
+.credits__text > b{
+    color: #eee;
+}
+.credits__title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #eee;
+}
+.credits__button > svg{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+.credits__button{
+    display: flex;
+    width: fit-content;
+    text-decoration: none;
+    color: #fafafafa;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    background-color: #eeeeee20;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+.credits__button:hover{
+    background-color: #eeeeee;
+    color: #171717;
+}
+.credits__button:hover > svg{
+    fill: #000;
+}
 .transition{
     position: absolute;
     width: 100%;
@@ -273,6 +337,9 @@ label {
     background-color: #eeeeee20;
     border-radius: 5px 5px 0 0;
     /* animation: countdownTransition 2s linear 0ms infinite forwards; */
+}
+.logo{
+    margin-top: 20px;
 }
 @keyframes countdownTransition {
     0% {
