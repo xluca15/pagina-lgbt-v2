@@ -6,7 +6,9 @@ window.addEventListener('load', () => {
     const searchResults = document.getElementById("search-results");
     let res = [];
     const startBtn = document.querySelector(".form__button");
-    
+    startBtn.addEventListener("click", ()=>{
+        startBtn.innerHTML = "Siguiente"
+    })
     // Questions states
     let currentQuestion = 0;
     const setCurrentQuestion = num => currentQuestion = num;
