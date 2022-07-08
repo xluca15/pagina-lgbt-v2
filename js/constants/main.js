@@ -1,6 +1,6 @@
 export const urls = [
     "lesbiana",
-    "gay",
+    "homosexual",
     "bisexual",
     "transgenero",
     "intersexo",

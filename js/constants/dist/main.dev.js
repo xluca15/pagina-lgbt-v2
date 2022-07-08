@@ -4,7 +4,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.articles = exports.urls = void 0;
-var urls = ["lesbiana", "gay", "bisexual", "transgenero", "intersexo", "queer", "index"];
+var urls = ["lesbiana", "homosexual", "bisexual", "transgenero", "intersexo", "queer", "index"];
 exports.urls = urls;
 var articles = {
   data: [{
