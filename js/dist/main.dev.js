@@ -9,10 +9,7 @@ window.addEventListener('load', function () {
   var searchInp = document.getElementById("search");
   var searchResults = document.getElementById("search-results");
   var res = [];
-  var startBtn = document.querySelector(".form__button");
-  startBtn.addEventListener("click", function () {
-    startBtn.innerHTML = "Siguiente";
-  }); // Questions states
+  var startBtn = document.querySelector(".form__button"); // Questions states
 
   var currentQuestion = 0;
 
@@ -196,6 +193,9 @@ window.addEventListener('load', function () {
   if (startBtn) {
     // If the button exists, run the function to add the event listener
     toggleTransition();
+    startBtn.addEventListener("click", function () {
+      startBtn.innerHTML = "Siguiente";
+    });
   }
 
   var assignLinksToLetters = function assignLinksToLetters() {

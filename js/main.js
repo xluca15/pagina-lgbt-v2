@@ -6,9 +6,6 @@ window.addEventListener('load', () => {
     const searchResults = document.getElementById("search-results");
     let res = [];
     const startBtn = document.querySelector(".form__button");
-    startBtn.addEventListener("click", ()=>{
-        startBtn.innerHTML = "Siguiente"
-    })
     // Questions states
     let currentQuestion = 0;
     const setCurrentQuestion = num => currentQuestion = num;
@@ -183,6 +180,9 @@ window.addEventListener('load', () => {
     if(startBtn) {
         // If the button exists, run the function to add the event listener
         toggleTransition();   
+        startBtn.addEventListener("click", ()=>{
+            startBtn.innerHTML = "Siguiente"
+        })
     }
     
     const assignLinksToLetters = ()=>{
