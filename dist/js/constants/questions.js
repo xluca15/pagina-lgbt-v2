@@ -50,7 +50,7 @@ export const questions = [
             "g. Organizaciones de las Naciones Unidas",
         ],
         multianswer: true,
-        correct: [0,1,2,3,4,5],
+        correct: [0, 1, 2, 3, 4, 5],
     },
     {
         title: "5. Los actos violentos contra las personas LGBTI y aquellas cuyas identidades y expresiones de género no se adaptan a las expectativas de las sociedades suelen ser «especialmente despiadados en comparación con otros delitos motivados por prejuicios». ¿Por qué motivo no se denuncian violaciones tan graves de los derechos humanos?",
@@ -60,7 +60,7 @@ export const questions = [
             "c.Puede que las personas no confíen en la policía, el gobierno u otras autoridades.",
             "d. Puede que las personas teman que sus familias o comunidades descubran que son LGBTI."
         ],
-        correct: 1,
+        correct: [1],
     },
     {
         title: "6. Las violaciones de los Derechos Humanos pueden tener lugar por motivos de orientación sexual, identidad o expresión de género. Entre otros aspectos, esto implica que las personas pueden ser víctimas de violación de sus derechos debido a que:",
@@ -70,7 +70,7 @@ export const questions = [
             "c. Desafían las normas de género asociadas con la convivencia o el matrimonio. Por ejemplo, las personas que tienen una relación con personas de su mismo sexo puede que no cumplan con las expectativas sociales debido a que no se han casado o tenido hijos, o porque viven con una persona de su mismo sexo.",
             "e. Todas son correctas.",
         ],
-        correct: 2,
+        correct: [2],
     },
     {
         title: "7. La postura de las Naciones Unidas sobre los Derechos Humanos relacionados con la orientación sexual y la identidad de género es:",
@@ -80,8 +80,7 @@ export const questions = [
             "c. Se necesitan nuevas leyes internacionales, que adopten el formato de un convenio o pacto especial sobre los derechos relacionados con la orientación sexual y la identidad de género, para que los Estados puedan proteger a todos los ciudadanos.",
             "d. Los Estados deben garantizar la protección de todas las personas que se encuentran en su jurisdicción e investigar de inmediato y a fondo todos los casos de violencia y asesinatos, incluidos los motivados por la orientación sexual y la identidad de género de la víctima.",
         ],
-        correct: 0,
-        correct: 2,
+        correct: [0],
     },
     {
         title: "8.Según el Alto Comisionado de las Naciones Unidas para los Derechos Humanos, las obligaciones jurídicas fundamentales de los Estados en materia de protección de los Derechos Humanos, relacionados con la orientación sexual y la identidad de género incluyen:",
@@ -92,6 +91,6 @@ export const questions = [
             "d. Salvaguardar la libertad de expresión, de asociación y de reunión pacífica de todas las personas y garantizar que cualquier limitación de esos derechos no sea discriminatoria por motivos de orientación sexual o identidad de género.",
             "e. Garantizar un salario mínimo a todas las personas LGBTI y a aquellas cuya identidad o expresión de género no se adapte a las expectativas de las sociedades.",
         ],
-        correct: 4,
+        correct: [4],
     },
 ]

@@ -49,6 +49,6 @@ export const articles = {
         {
             name: "Homofobia",
             url: "homofobia",
-        },  
+        },
     ],
 }
